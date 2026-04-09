@@ -1,0 +1,23 @@
+# Cache Python (fichiers compilés automatiquement)
+__pycache__/
+*.pyc
+*.pyo
+
+# Environnement virtuel (trop lourd, pas à partager)
+venv/
+.venv/
+env/
+
+# Fichiers système Windows/Mac
+Thumbs.db
+.DS_Store
+
+# Fichiers VSCode personnels
+.vscode/
+
+# Données sensibles
+*.env
+.env
+# Cache Python (fichiers compilés automatiquement)
+__pycache__/
+*.pyc
