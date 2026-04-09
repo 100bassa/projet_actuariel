@@ -107,7 +107,7 @@ with tab_vie:
         capital   = st.number_input("Capital décès (€)", 10_000, 1_000_000, 100_000, 10_000)
 
         # Taux en % côté UI → divisé par 100 pour les calculs (ex: 2.5% → 0.025)
-        taux_tech = st.slider("Taux technique (%)", 0.5, 5.0, 2.5, 0.25) / 100
+        taux_tech = st.slider("Taux technique (%)", 0.0, 5.0, 2.5, 0.25) / 100
 
     # ── Instanciation des objets actuariels ───────────────────────────────────
     # TableMortalite() : génère la table qx (Makeham)
